@@ -1,0 +1,271 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 0px;
+  margin: 0px;
+  width: 1600px;
+}
+ul {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+a {
+  text-decoration: none;
+}
+header {
+  border: 1px solid #ececec;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  margin-right: 215px;
+  margin-left: 215px;
+  justify-content: space-between;
+}
+.nav-links {
+  display: flex;
+  margin-left: 93px;
+}
+
+.nav-links a {
+  color: #212121;
+  font-size: 16px;
+}
+.nav-links > li {
+  margin-right: 50px;
+}
+.nav-links :last-child {
+  margin-right: 0px;
+}
+.nav-contacts {
+  display: flex;
+  margin-left: 331px;
+}
+.nav-contacts :not(:first-child) {
+  margin-left: 50px;
+}
+.nav-contacts a {
+  color: #757575;
+  font-size: 16px;
+}
+
+.nav-contacts :hover,
+.nav-links :hover {
+  color: #2196f3;
+}
+/*Эфективные решения и кнопка заказать услугу*/
+.efective-solution {
+  text-align: center;
+  background-color: #2f303a;
+  color: #ffffff;
+  height: 600px;
+}
+.efective-solution > h1 {
+  margin: 0px;
+  padding-top: 200px;
+  padding-bottom: 30px;
+  font-size: 44px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.order-service {
+  background-color: #2196f3;
+  color: #ffffff;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+}
+/*Чем мы занимаемся*/
+
+.dignities {
+  display: flex;
+  justify-content: center;
+  margin-left: 215px;
+  margin-right: 215px;
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+.dignities :not(:last-child) {
+  margin-right: 30px;
+}
+.dignities p {
+  text-align: left;
+  width: 270px;
+  color: #757575;
+  line-height: 1.7;
+  font-size: 14;
+  margin-bottom: 0px;
+}
+.dignities span {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+/*Our work*/
+.studio-images img {
+  width: 370px;
+  height: 294px;
+}
+.studio-images {
+  display: flex;
+  margin-top: 0px;
+  margin-left: 215px;
+  margin-right: 215px;
+  margin-bottom: 94px;
+}
+.studio-images :not(:last-child) {
+  margin-right: 30px;
+}
+.head2 {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 0px;
+}
+/*Our team */
+.our-team {
+  background-color: #f5f4fa;
+  width: 1600px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.team {
+  text-align: center;
+  font-size: 36px;
+  margin-block-start: 0px;
+  margin-block-end: 50px;
+}
+.team-photo {
+  display: flex;
+  margin-right: 215px;
+  margin-left: 215px;
+}
+.team-photo :not(:last-child) {
+  margin-right: 30px;
+}
+
+.team-photo img {
+  width: 270px;
+  height: 260px;
+}
+.team-photo > li {
+  width: 270px;
+  height: 368px;
+  text-align: center;
+  font-size: 16px;
+  background-color: #ffffff;
+}
+.team-photo p {
+  text-align: center;
+  width: 270px;
+  color: #757575;
+  line-height: 1.7;
+  font-size: 14px;
+  font-weight: 500;
+}
+/* footer*/
+.contacts {
+  background-color: #2f303a;
+  height: 252px;
+  width: 1600px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  padding-right: 215px;
+  padding-left: 215px;
+}
+.foot-contacts a {
+  color: #757575;
+  font-size: 14px;
+}
+.foot-contacts > li {
+  color: #ffffff;
+}
+.foot-contacts {
+  line-height: 1.7;
+  font-size: 14;
+}
+/*кнопки портфолио*/
+.b-all {
+  width: 73px;
+  height: 38px;
+  color: #212121;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #f5f4fa;
+  border: #ffffff;
+}
+.b-web {
+  width: 128px;
+  height: 38px;
+  color: #212121;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #f5f4fa;
+  border: #ffffff;
+}
+.b-app {
+  width: 145px;
+  height: 38px;
+  color: #212121;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #f5f4fa;
+  border: #ffffff;
+}
+.b-disigne {
+  width: 103px;
+  height: 38px;
+  color: #212121;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #f5f4fa;
+  border: #ffffff;
+}
+.b-mark {
+  width: 130px;
+  height: 38px;
+  color: #212121;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #f5f4fa;
+  border: #ffffff;
+}
+/*эффект Ховер на кнопки*/
+
+div li :hover {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+/*potfolio photo*/
+.portfolio-photo img {
+  width: 370px;
+  height: 294px;
+}
+.portfolio-photo li {
+  width: 370px;
+  height: 404px;
+  text-align: left;
+  font-size: 16px;
+  background-color: #ffffff;
+  border-style: 1px;
+}
+.portfolio-photo p {
+  text-align: left;
+  width: 270px;
+  color: #757575;
+  line-height: 1.7;
+  font-size: 14px;
+  font-weight: 500;
+}
