@@ -18,6 +18,7 @@ a {
 }
 header {
   border: 1px solid #ececec;
+  margin: auto;
 }
 .main-nav {
   display: flex;
@@ -59,6 +60,9 @@ header {
   color: #2196f3;
 }
 /*Эфективные решения и кнопка заказать услугу*/
+main {
+  margin: auto;
+}
 .efective-solution {
   text-align: center;
   background-color: #2f303a;
@@ -180,6 +184,9 @@ header {
   letter-spacing: 0.03em;
 }
 /* footer*/
+footer {
+  margin: auto;
+}
 .contacts {
   background-color: #2f303a;
   height: 252px;
