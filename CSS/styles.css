@@ -19,6 +19,7 @@ a {
 header {
   border: 1px solid #ececec;
   margin: auto;
+  width: 1600px;
 }
 .main-nav {
   display: flex;
@@ -26,7 +27,6 @@ header {
   height: 80px;
   margin-right: 215px;
   margin-left: 215px;
-  justify-content: space-between;
 }
 .nav-links {
   display: flex;
@@ -35,8 +35,10 @@ header {
 
 .nav-links a {
   color: #212121;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
+  font-family: Roboto;
+  font-style: normal;
 }
 .nav-links > li {
   margin-right: 50px;
@@ -46,14 +48,19 @@ header {
 }
 .nav-contacts {
   display: flex;
-  margin-left: 331px;
+  margin-left: 335px;
 }
 .nav-contacts :not(:first-child) {
   margin-left: 50px;
 }
 .nav-contacts a {
-  color: #757575;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
   font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
 }
 
 .nav-contacts :hover,
@@ -63,6 +70,7 @@ header {
 /*Эфективные решения и кнопка заказать услугу*/
 main {
   margin: auto;
+  width: 1600px;
   font-family: "Roboto", sans-serif;
 }
 .efective-solution {
@@ -191,6 +199,7 @@ main {
 /* footer*/
 footer {
   margin: auto;
+  width: 1600px;
 }
 .contacts {
   background-color: #2f303a;
