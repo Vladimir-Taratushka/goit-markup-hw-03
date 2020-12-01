@@ -7,7 +7,7 @@ body {
   font-family: "Roboto", sans-serif;
   padding: 0px;
   margin: 0px;
-  width: 1600px;
+  width: 100%;
 }
 ul {
   list-style: none;
@@ -36,6 +36,7 @@ header {
 .nav-links a {
   color: #212121;
   font-size: 16px;
+  font-weight: 500;
 }
 .nav-links > li {
   margin-right: 50px;
@@ -52,7 +53,7 @@ header {
 }
 .nav-contacts a {
   color: #757575;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .nav-contacts :hover,
@@ -62,6 +63,7 @@ header {
 /*Эфективные решения и кнопка заказать услугу*/
 main {
   margin: auto;
+  font-family: "Roboto", sans-serif;
 }
 .efective-solution {
   text-align: center;
@@ -74,7 +76,9 @@ main {
   padding-top: 200px;
   padding-bottom: 30px;
   font-size: 44px;
-  font-weight: 900;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.4;
   text-transform: uppercase;
 }
 .order-service {
@@ -91,8 +95,8 @@ main {
 .dignities {
   display: flex;
   justify-content: center;
-  margin-left: 215px;
-  margin-right: 215px;
+  margin-right: auto;
+  margin-left: auto;
   margin-top: 94px;
   margin-bottom: 94px;
 }
@@ -126,9 +130,10 @@ main {
 }
 .studio-images {
   display: flex;
+  justify-content: center;
   margin-top: 0px;
-  margin-left: 215px;
-  margin-right: 215px;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 94px;
 }
 .studio-images :not(:last-child) {
@@ -137,7 +142,6 @@ main {
 /*Our team */
 .our-team {
   background-color: #f5f4fa;
-  width: 1600px;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -149,8 +153,9 @@ main {
 }
 .team-photo {
   display: flex;
-  margin-right: 215px;
-  margin-left: 215px;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
   margin-block-start: 0px;
   margin-block-end: 0px;
 }
@@ -190,7 +195,6 @@ footer {
 .contacts {
   background-color: #2f303a;
   height: 252px;
-  width: 1600px;
   padding-bottom: 60px;
   padding-top: 60px;
   padding-right: 215px;
@@ -280,12 +284,14 @@ div li :hover {
 /*potfolio photo*/
 .portfolio-photo {
   display: flex;
-  margin-block-start: 0px;
-  margin-block-end: 0px;
+  justify-content: center;
   flex-wrap: wrap;
-  margin-right: 215px;
-  margin-left: 215px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 215px;
+  padding-right: 215px;
   margin-bottom: 94px;
+  width: 1600px;
 }
 .portfolio-photo :nth-child(3n + 3) {
   margin-right: 0px;
@@ -304,6 +310,7 @@ div li :hover {
   height: 404px;
   font-size: 18px;
   font-weight: 700;
+  letter-spacing: 0.06em;
   background-color: #ffffff;
   border: 1px solid #eeeeee;
   margin-bottom: 20px;
