@@ -110,8 +110,6 @@ main {
   margin-left: auto;
   margin-top: 94px;
   margin-bottom: 94px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 .dignities :not(:last-child) {
   margin-right: 30px;
@@ -163,10 +161,6 @@ main {
 .our-team {
   background-color: #f5f4fa;
   padding-top: 94px;
-  padding-bottom: 94px;
-  width: 1170px;
-  margin-right: auto;
-  margin-left: auto;
 }
 .team {
   text-align: center;
@@ -178,6 +172,10 @@ main {
   display: flex;
   justify-content: center;
 
+  padding-bottom: 94px;
+  width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
   margin-block-start: 0px;
   margin-block-end: 0px;
 }
@@ -305,9 +303,10 @@ footer {
 }
 /*эффект Ховер на кнопки*/
 
-div li :hover {
+.portfolio-buttons :hover {
   background-color: #2196f3;
   color: #ffffff;
+  border-radius: 4px;
 }
 /*potfolio photo*/
 .container {
