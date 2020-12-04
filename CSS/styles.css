@@ -18,15 +18,15 @@ a {
 }
 header {
   border: 1px solid #ececec;
-  margin: auto;
-  width: 1600px;
 }
 .main-nav {
   display: flex;
   align-items: center;
   height: 80px;
-  margin-right: 215px;
-  margin-left: 215px;
+  width: 1170px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .nav-links {
   display: flex;
@@ -37,7 +37,7 @@ header {
   color: #212121;
   font-size: 14px;
   font-weight: 500;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
 }
 .nav-links > li {
@@ -48,13 +48,13 @@ header {
 }
 .nav-contacts {
   display: flex;
-  margin-left: 335px;
+  margin-left: auto;
 }
 .nav-contacts :not(:first-child) {
   margin-left: 50px;
 }
 .nav-contacts a {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -70,8 +70,9 @@ header {
 /*Эфективные решения и кнопка заказать услугу*/
 main {
   margin: auto;
-  width: 1600px;
   font-family: "Roboto", sans-serif;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .efective-solution {
   text-align: center;
@@ -79,6 +80,7 @@ main {
   color: #ffffff;
   height: 600px;
 }
+
 .efective-solution > h1 {
   margin: 0px;
   padding-top: 200px;
@@ -103,10 +105,13 @@ main {
 .dignities {
   display: flex;
   justify-content: center;
+  width: 1170px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 94px;
   margin-bottom: 94px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .dignities :not(:last-child) {
   margin-right: 30px;
@@ -126,6 +131,12 @@ main {
 }
 
 /*Our work*/
+.our-work {
+  justify-content: center;
+  width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+}
 .head2 {
   text-align: center;
   font-size: 36px;
@@ -140,9 +151,10 @@ main {
   display: flex;
   justify-content: center;
   margin-top: 0px;
-  margin-right: auto;
-  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-bottom: 94px;
+  width: 1170px;
 }
 .studio-images :not(:last-child) {
   margin-right: 30px;
@@ -152,6 +164,9 @@ main {
   background-color: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
+  width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .team {
   text-align: center;
@@ -162,8 +177,7 @@ main {
 .team-photo {
   display: flex;
   justify-content: center;
-  margin-right: auto;
-  margin-left: auto;
+
   margin-block-start: 0px;
   margin-block-end: 0px;
 }
@@ -198,17 +212,17 @@ main {
 }
 /* footer*/
 footer {
-  margin: auto;
-  width: 1600px;
+  background-color: #2f303a;
 }
 .contacts {
-  background-color: #2f303a;
-  height: 252px;
-  padding-bottom: 60px;
   padding-top: 60px;
-  padding-right: 215px;
-  padding-left: 215px;
+  padding-bottom: 39px;
+  width: 1170px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
+
 .foot-contacts a {
   color: #757575;
   font-size: 14px;
@@ -223,6 +237,11 @@ footer {
   font-size: 14;
 }
 /*кнопки портфолио*/
+.portfolio {
+  width: 1170px;
+  justify-content: center;
+  margin: auto;
+}
 .portfolio-buttons {
   padding-inline-start: 0px;
   display: flex;
@@ -291,16 +310,19 @@ div li :hover {
   color: #ffffff;
 }
 /*potfolio photo*/
+.container {
+  justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .portfolio-photo {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin-right: auto;
   margin-left: auto;
-  padding-left: 215px;
-  padding-right: 215px;
   margin-bottom: 94px;
-  width: 1600px;
+  width: 1170px;
 }
 .portfolio-photo :nth-child(3n + 3) {
   margin-right: 0px;
