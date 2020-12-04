@@ -222,17 +222,19 @@ footer {
 }
 
 .foot-contacts a {
-  color: #757575;
+  color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   font-style: normal;
 }
 .foot-contacts > li {
   color: #ffffff;
   font-style: normal;
+  font-size: 14px;
 }
 .foot-contacts {
+  font-family: "Roboto", sans-serif;
   line-height: 1.7;
-  font-size: 14;
+  font-size: 14px;
 }
 /*кнопки портфолио*/
 .portfolio {
